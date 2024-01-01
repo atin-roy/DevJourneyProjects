@@ -1,0 +1,102 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F2F5; 
+    margin-top: -70px;
+    /* come back */
+}
+
+.login-box {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box input {
+    font-size: 17px;
+    width: 100%;
+    height: 40px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(221, 223, 226);
+}
+
+.login-box .login-button {
+    width: 100%;
+    height: 40px;
+    background-color: #1877f2;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.login-box .forgotten-pass {
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.login-box .new-account {
+    width: 100%;
+    padding-top: 25px;
+    border-top: 1px solid rgb(221, 223, 226);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.new-account-btn {
+    width: 55%;
+    height: 40px;
+    background-color: #42b72a;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.company {
+    text-align: center;
+    max-width: 370px;
+}
+
+h1 {
+    color: #0866FF;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+
+}
