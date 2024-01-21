@@ -1,111 +1,35 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-body {
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    background-color: #1BBC9D;
+html, body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #1abc9c;
 }
-.container {
-    width: clamp(360px, 50%, 500px);
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 5px 5px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    /* padding: 40px; */
-}
-
-.heading {
-    width: 100%;
-    font-size: 30px;
-    font-weight: 600;
-    background-color: #17A086;
-    border-radius: 15px 15px 0px 0px;
-}
-
-.heading p {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: white;
-}
-
-img {
-    height: 30px;
-    margin-right: 16px;
-    background-color: #17A086;
-    padding: 5px;
-    border-radius: 50%;
-}
-
-.email, .password {
-    display: flex;
-    height: 40px;
-    padding: 20px;
-}
-
-#email, #password{
-    height: 30px;
-    width: 100%;
-    border: 1px solid rgb(180, 178, 178);
+.wrapper {
+    width: 380px;
+    background: #fff;
     border-radius: 5px;
-    padding-left: 10px;
 }
-
-.forgot {
+.wrapper .title {
+    line-height: 80px;
+    background: #16a085;
     padding-left: 20px;
-    padding-top: 20px;
-    font-size: 15px;
-    /* padding-bottom: 20px; */
-    color: #17A086;
-    /* cursor: pointer; */
-}
-
-.forgot span {
-    cursor: pointer;
-}
-
-.login {
-    margin: 5%;
-    display: flex;
-    justify-content: center;
-    /* cursor: pointer; */
-}
-
-.login input {
-    background-color: #17A086;
-    color: white;
-    font-size: 20px;
-    border-radius: 15px;
-    width: 100%;
-    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 25px;
     font-weight: 600;
-    border: none;
-    cursor: pointer;
 }
-
-.sign-up {
-    display: flex;
-    justify-content: center;
+.wrapper form {
+    padding: 30px 20px 25px 20px;
 }
-
-span {
-    padding-bottom: 20px;
-    padding-right: 5px;
-}
-
-.blue {
-    color: #17A086;
-    cursor: pointer;
+.wrapper form .row {
+    height: 45px;
+    background: ;
 }
